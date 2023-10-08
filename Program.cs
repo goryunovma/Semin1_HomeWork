@@ -70,4 +70,5 @@ while(n >= current)
     Console.Write($"number Input ->" current + "    ");
     current = current + 2;
 }
+Добавили локальную строку 
 
