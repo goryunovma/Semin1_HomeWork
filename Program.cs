@@ -42,38 +42,32 @@
 // Console.Write("Input a=  ");
 // // int a = Convert.ToInt32(Console.ReadLine());
 
-Console.Write("Input a=  ");
+// Console.Write("Введите число=  ");
+// int number = Convert.ToInt32(Console.ReadLine());
+// if (number%2 == 0)
+// {
+//     Console.WriteLine($"Число {number} чётное");
+// }
+// else
+// {
+//     Console.WriteLine($"Число {number} не чётное");
+// }
+
+// Console.Write("Input N=  ");
+// int n = Convert.ToInt32(Console.ReadLine());
+// int current = 2;
+// while(n >= current)
+// {
+//     Console.Write(current + "    ");
+//     current = current + 2;
+// }
+
+Console.Write("Input N=  ");
 int n = Convert.ToInt32(Console.ReadLine());
-if(n == 1)
+int current = 2;
+while(n >= current)
 {
-    Console.WriteLine("Понедельник");
-}
-else if(n == 2)
-{
-    Console.WriteLine("Вторник");
-}
-else if(n == 3)
-{
-    Console.WriteLine("Среда");
-}
-else if(n == 4)
-{
-    Console.WriteLine("Четверг");
-}
-else if(n == 5)
-{
-    Console.WriteLine("Пятница");
-}
-else if(n == 6)
-{
-    Console.WriteLine("Суббота");
-}
-else if(n == 7)
-{
-    Console.WriteLine("Воскресенье");
-}
-else
-{
-    Console.WriteLine("Error");
+    Console.Write($"number Input ->" current + "    ");
+    current = current + 2;
 }
 
